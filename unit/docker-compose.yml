@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  unittest:
+    build: .
+    container_name: unittest
+    volumes:
+      - .:/opt/unit/
